@@ -1,0 +1,112 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "FAQ1",
+      "patterns": [
+        "How long does it take to complete a course on Sciastra?",
+        "Do you offer any discounts for your courses?",
+        "Do you have any courses specifically for beginners?",
+        "What is the cost of a course on Sciastra.com?"
+      ],
+      "responses": [
+        "You can visit our Courses section for further details"
+      ]
+    },
+    {
+      "tag": "FAQ2",
+      "patterns": [
+        "Can I access the courses on my mobile device?"
+      ],
+      "responses": [
+        "Yes you can download our app from Google Playstore"
+      ]
+    },
+    {
+      "tag": "FAQ3",
+      "patterns": [
+        "Can I download the lecture materials for a course?",
+        "How can I access the course material?"
+      ],
+      "responses": [
+        "Only if you have access to our courses."
+      ]
+    },
+    {
+      "tag": "FAQ4",
+      "patterns": [
+        "Are there any prerequisites for enrolling in a course?"
+      ],
+      "responses": [
+        "No there are not!"
+      ]
+    },
+    {
+      "tag": "FAQ5",
+      "patterns": [
+        "What kind of support is available to me if I have technical difficulties or questions about the material?"
+      ],
+      "responses": [
+        "You can contact us via mail(support@sciastra.com)"
+      ]
+    },
+    {
+      "tag": "FAQ6",
+      "patterns": [
+        "Do you provide free study material?"
+      ],
+      "responses": [
+        "Yes we have free study materials and MockTest Series for you..you can explore them on our website if you like"
+      ]
+    },
+    {
+      "tag": "FAQ7",
+      "patterns": [
+        "Can I enroll in multiple Courses at once?"
+      ],
+      "responses": [
+        "Yes you can!"
+      ]
+    },
+    {
+      "tag": "FAQ8",
+      "patterns": [
+        "Can you tell me about your selection ratio?",
+        "Can you provide me your selection ratio?"
+      ],
+      "responses": [
+        "Yes you can check out Selection section of our page"
+      ]
+    }
+  ]
+}
